@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overall-Health</title>
+    <style>
+        .navbar {
+          background-color:rgb(255, 87, 34);;
+            /* display: inline-block;
+            width: 100%; */
+        }
+        .row{
+          display: flex;
+          /* margin-left: 5%; */
+        }
+        .column{
+          margin-left: 10%;
+          padding-right: 5%;
+        }
+
+        /* .row2{
+          display: flex;
+       
+        }
+        .column2{
+          margin-left: 25%;
+          padding-right: 20%;
+        }
+
+        .row3{
+          display: flex;
+       
+        }
+        .column3{
+          margin-left: 23%;
+          padding-right: 13%;
+        } */
+        figcaption{
+          background-color: black;
+          color: white;
+          font-style: italic;
+          padding: 2px;
+          text-align: center;
+        }
+        img{
+          width: 500px;
+          height: 300px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <h2 style="color:rgb(255, 255, 255);;margin-left: 45%;">Cat Prediction</h2>
+    
+        <a href="{{ url_for('index') }}" class="btn btn-outline-success" style="
+                    font-weight: bolder; color: rgb(255, 255, 255); font-size:medium;
+                    margin-left:10%;
+                    ">
+          Home
+        </a>
+    
+        <a href="{{ url_for('web_scrap') }}" class="btn btn-outline-success" style="
+                    font-weight: bolder; color: rgb(255, 255, 255); font-size:medium;
+                    margin-right: 10%;">
+          Web Scrapping
+        </a>
+      </div>
+
+      <div class="row">
+        <div class="column">
+          <figure>
+            <img src="static/Data visualization/Image 0.jpg" alt="">
+            <figcaption>Image 0</figcaption>
+          </figure>
+        </div>
+        <div>
+          <figure>
+            <img src="static/Data visualization/image 1.png" alt="">
+            <figcaption>Image 1</figcaption>
+          </figure>
+        </div>
+      </div>
+
+      <div  class="row">
+        <div class="column">
+          <figure>
+            <img src="static/Data visualization/image 2.png" alt="">
+            <figcaption>Image 2</figcaption>
+          </figure>
+
+        </div>
+        <div>
+          <figure>
+            <img src="static/Data visualization/image 3.png" alt="">
+            <figcaption>Image 3</figcaption>
+          </figure>
+        </div>
+      </div>
+
+      <div  class="row">
+        <div class="column">
+          <figure>
+            <img src="static/Data visualization/image 4.png" alt="">
+            <figcaption>Image 4</figcaption>
+          </figure>
+        </div>
+        <div>
+          <figure>
+            <img src="static/Data visualization/image 4.png" alt="">
+            <figcaption>Image 4</figcaption>
+          </figure>
+        </div>
+      </div>
+
+      <div  class="row">
+        <div class="column">
+          <figure>
+            <img src="static/Data visualization/image 5.png" alt="">
+            <figcaption>Image 5</figcaption>
+          </figure>
+        </div>
+        <div>
+          <figure>
+            <img src="static/Data visualization/image 6.png" alt="">
+            <figcaption>Image 6</figcaption>
+          </figure>
+        </div>
+      </div>
+
+      <div  class="row">
+        <div class="column">
+          <figure>
+            <img src="static/Data visualization/image 7.png" alt="">
+            <figcaption>Image 7</figcaption>
+          </figure>
+        </div>
+        <div>
+          <figure>
+            <img src="static/Data visualization/image 8.png" alt="">
+            <figcaption>Image 8</figcaption>
+          </figure>
+        </div>
+      </div>
+</body>
+</html>
